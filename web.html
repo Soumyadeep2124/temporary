@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav-left">
+                <img src="./Logo.png" alt="" class="logo">
+            </div>
+            <div class="nav-middle">
+                <a href="#hero-section" class="link"><h2 class="nav-content">Home</h2></a>
+                <a href="#about-me" class="link"><h2 class="nav-content">About Me</h2></a>
+                <a href="#skills" class="link"><h2 class="nav-content">Skills</h2></a>
+                <a href="#project" class="link"><h2 class="nav-content">Project</h2></a>
+                <a href="#contact" class="link"><h2 class="nav-content">Contact</h2></a>
+                <div class="hamburger"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="3vw" height="3vw" fill="currentColor"><path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path></svg></div>
+            </div>
+            <div class="nav-right">
+                <button class="button">SignIn</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="hero-section">
+            <div class="infobox-main">
+                <h1>Learn <span>HTML</span></h1>
+                <h2>Start at the beginning by learning HTML basics — <br>an important foundation for building and editing web pages</h2>
+                <a href="#course"><button class="start">Start Learning Today</button></a>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="">
+                <div class="circle-box"></div>
+
+            </div>
+            <div class="infobox infobox1">
+                <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="5vw" height="5vw" fill="currentColor"><path d="M2 13H8V21H2V13ZM16 8H22V21H16V8ZM9 3H15V21H9V3ZM4 15V19H6V15H4ZM11 5V19H13V5H11ZM18 10V19H20V10H18Z"></path></svg></div>                
+                <h2>Skill Level</h2>
+                <h3>Beginner</h3>
+            </div>
+            <div class="infobox infobox2">
+                <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="5vw" height="5vw" fill="currentColor"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM13 12H17V14H11V7H13V12Z"></path></svg></div>
+                <h2>Time Required</h2>
+                <h3>1 Week</h3>
+            </div>
+            <div class="infobox infobox3">
+                <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="5vw" height="5vw" fill="currentColor"><path d="M6.99979 7V3C6.99979 2.44772 7.4475 2 7.99979 2H20.9998C21.5521 2 21.9998 2.44772 21.9998 3V16C21.9998 16.5523 21.5521 17 20.9998 17H17V20.9925C17 21.5489 16.551 22 15.9925 22H3.00728C2.45086 22 2 21.5511 2 20.9925L2.00276 8.00748C2.00288 7.45107 2.4518 7 3.01025 7H6.99979ZM8.99979 7H15.9927C16.549 7 17 7.44892 17 8.00748V15H19.9998V4H8.99979V7ZM15 9H4.00255L4.00021 20H15V9ZM8.50242 18L4.96689 14.4645L6.3811 13.0503L8.50242 15.1716L12.7451 10.9289L14.1593 12.3431L8.50242 18Z"></path></svg></div>
+                <h2>Prerequisites</h2>
+                <h3>None</h3>
+            </div>
+            <div class="infobox infobox4">
+                <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="5vw" height="5vw" fill="currentColor"><path d="M20.0833 15.1999L21.2854 15.9212C21.5221 16.0633 21.5989 16.3704 21.4569 16.6072C21.4146 16.6776 21.3557 16.7365 21.2854 16.7787L12.5144 22.0412C12.1977 22.2313 11.8021 22.2313 11.4854 22.0412L2.71451 16.7787C2.47772 16.6366 2.40093 16.3295 2.54301 16.0927C2.58523 16.0223 2.64413 15.9634 2.71451 15.9212L3.9166 15.1999L11.9999 20.0499L20.0833 15.1999ZM20.0833 10.4999L21.2854 11.2212C21.5221 11.3633 21.5989 11.6704 21.4569 11.9072C21.4146 11.9776 21.3557 12.0365 21.2854 12.0787L11.9999 17.6499L2.71451 12.0787C2.47772 11.9366 2.40093 11.6295 2.54301 11.3927C2.58523 11.3223 2.64413 11.2634 2.71451 11.2212L3.9166 10.4999L11.9999 15.3499L20.0833 10.4999ZM12.5144 1.30864L21.2854 6.5712C21.5221 6.71327 21.5989 7.0204 21.4569 7.25719C21.4146 7.32757 21.3557 7.38647 21.2854 7.42869L11.9999 12.9999L2.71451 7.42869C2.47772 7.28662 2.40093 6.97949 2.54301 6.7427C2.58523 6.67232 2.64413 6.61343 2.71451 6.5712L11.4854 1.30864C11.8021 1.11864 12.1977 1.11864 12.5144 1.30864ZM11.9999 3.33233L5.88723 6.99995L11.9999 10.6676L18.1126 6.99995L11.9999 3.33233Z"></path></svg></div>
+                <h2>Projects</h2>
+                <h3>3</h3>
+            </div>
+        </section>
+        <section id="course">
+            <div class="syllabus"><h1>Table Of Contents</h1></div>
+            <div class="syllabus-detail syllabus-detail1">
+                <h2>Module 1</h2>
+                <h3>Foundations Of HTML</h3>
+                <ul>
+                    <li>Chapter 1.1:- Introduction to HTML and Document Structure</li>
+                    <li>Chapter 1.2:- Basic HTML Tags (headings, paragraphs, links)</li>
+                    <li>Chapter 1.3:- Lists and Formatting Text</li>
+                    <li>Chapter 1.4:- HTML Attributes and Links</li>
+                </ul>
+                <a href="#module1"><button class="button">Explore</button></a>
+            </div>
+            <div class="syllabus-detail syllabus-detail2">
+                <h2>Module 2</h2>
+                <h3>Multimedia and Layouts</h3>
+                <ul>
+                    <li>Chapter 2.1:- Images and Image Attributes</li>
+                    <li>Chapter 2.2:- Embedding Videos and Audio</li>
+                    <li>Chapter 2.3:- HTML Forms: Basics and Input Fields</li>
+                    <li>Chapter 2.4:- Tables and Table Styling</li>
+                </ul>
+                <a href="#module2"><button class="button">Explore</button></a>
+            </div>
+            <div class="syllabus-detail syllabus-detail3">
+                <h2>Module 3</h2>
+                <h3>Advanced HTML Elements</h3>
+                <ul>
+                    <li>Chapter 3.1:- HTML5 Semantic Elements (header, footer, article)</li>
+                    <li>Chapter 3.2:- Using Iframes and Embedding External Content</li>
+                    <li>Chapter 3.3:- Forms: Advanced Inputs and Attributes</li>
+                    <li>Chapter 3.4:- Interactive Elements (buttons, modals)</li>
+                </ul>
+                <a href="#module3"><button class="button">Explore</button></a>
+            </div>
+            <div class="syllabus-detail syllabus-detail4">
+                <h2>Module 4</h2>
+                <h3>HTML Best Practices</h3>
+                <ul>
+                    <li>Chapter 4.1:- Accessibility in HTML</li>
+                    <li>Chapter 4.2:- Structuring HTML for SEO</li>
+                    <li>Chapter 4.3:- HTML Code Organization and Comments</li>
+                    <li>Chapter 4.4:- Tips for Clean, Maintainable HTML</li>
+                </ul>
+                <a href="#module4"><button class="button">Explore</button></a>
+            </div>
+        </section>
+        <section id="module1" class="module">
+            <div class="module-style"><h2>Module1:- Foundations Of HTML</h2></div>
+            <div class="module-restyle"><h3>Chapter 1.1:- Introduction to HTML and Document Structure</h3></div>
+            <p>HTML, or HyperText Markup Language, is the standard language for creating web pages. Each HTML document has a basic structure with specific tags that define its layout: <br>
+                &lt;html&gt;:- This is the root tag that wraps all content on the page. Everything within this tag is part of the HTML document. <br>
+                &lt;head&gt;:- The head section contains metadata, or information about the webpage, that isn't displayed on the page itself. <br>
+                This includes the &lt;title&gt;, which sets the text that appears on the browser tab, as well as links to external resources like CSS stylesheets. <br>
+                &lt;body&gt;:- This section contains all the visible content on the page, including text, images, links, and more. Everything within the body tag will be displayed on the user's screen. <br>
+                Understanding this structure is key to building any HTML page. This chapter sets the foundation for organizing a webpage, so each element has its place.
+            </p>
+            <div class="module-restyle"><h3>Chapter 1.2:- Basic HTML Tags (Headings, Paragraphs, Links)</h3></div>
+            <p>HTML offers several tags that help structure and organize content: <br>
+                Headings:- &lt;h1&gt; to &lt;h6&gt; tags create headings, from the largest (&lt;h1&gt;) to the smallest (&lt;h6&gt;). Headings are essential for organizing information, making it easier for visitors to read and search engines to understand the page content hierarchy. <br>
+                Paragraphs:- The &lt;p&gt; tag wraps blocks of text. Each paragraph tag creates space before and after the text, helping to keep content visually separated. <br>
+                Links:- The &lt;a&gt; tag, or anchor tag, creates links to other web pages. Using the `href` attribute, you can specify the URL for the link destination. For example, &lt;a href="https://example.com"&gt;Visit Example&lt;a&gt; creates a link to "example.com." Links connect different pages, allowing users to navigate through a website smoothly. <br>
+                This chapter introduces the most-used tags, helping you create structured, navigable content.
+            </p>
+            <div class="module-restyle"><h3>Chapter 1.3: Lists and Formatting Text</h3></div>
+            <p>Lists and Formatting Text <br>
+                HTML provides list tags to display content in an ordered or unordered manner. <br>
+                Unordered Lists:- The &lt;ul&gt; tag creates a bulleted list. Each item within the list is wrapped in an &lt;li&gt; (list item) tag. <br>
+                Ordered Lists:- The &lt;ol&gt; tag creates a numbered list. The items are also wrapped in &lt;li&gt; tags, but each item is automatically numbered. <br>
+                Text Formatting:- To add emphasis, HTML provides tags like &lt;b&gt; for bold, &lt;i&gt; for italic, and &lt;u&gt; for underline. These tags give specific words or phrases visual emphasis, helping guide readers' attention to important details. <br>
+                Learning lists and formatting lets you organize data logically and visually, making content easy to scan and read.
+              </p>
+            <div class="module-restyle"><h3>Chapter 1.4: HTML Attributes and Links</h3></div>
+            <p>HTML attributes are additional information within tags that help control behavior or appearance: <br>
+                Attributes:- Attributes like id and class can be used to target elements for styling with CSS or scripting with JavaScript. For example, &lt;p id="intro"&gt;Welcome to HTML&lt;/p&gt; allows the paragraph to be uniquely identified by the id. <br>
+                Links:- With &lt;a&gt;, the href attribute specifies the destination URL. The target attribute controls how the link opens: target="_blank" opens in a new tab, which can be useful for external links. <br>
+            This chapter explains attributes' versatility in customizing elements and enhancing functionality.
+            </p>
+        </section>
+        <section id="module2" class="module">
+            <div class="module-style"><h2>Module 2: Multimedia and Layouts</h2></div>
+            <div class="module-restyle"><h3>Chapter 2.1: Images and Image Attributes</h3></div>
+            <p>The &lt;img&gt; tag is used to add images, which are an essential part of any modern webpage: <br>
+                Image Attributes:- The src attribute specifies the image's URL or file path, while alt provides descriptive text if the image doesn't load or is used by screen readers. The width and height attributes control image size directly. <br>
+                Responsive Images:- Understanding how to resize and format images for different screen sizes helps create visually appealing, accessible sites.
+            </p>
+            <div class="module-restyle"><h3>Chapter 2.2: Embedding Videos and Audio</h3></div>
+            <p>HTML allows you to add multimedia elements to make websites more engaging: <br>
+                Video:- The &lt;video&gt; tag embeds video files directly. It uses attributes like controls, autoplay, and loop. For example: <br>
+                &lt;video src="movie.mp4" controls&gt;&lt;/video&gt; <br>
+                Audio:- The &lt;audio&gt; tag allows audio embedding, with similar controls. Multimedia can provide a rich experience but should be used thoughtfully to enhance, not overwhelm, a website.
+            </p>
+            <div class="module-restyle"><h3>Chapter 2.3: HTML Forms: Basics and Input Fields</h3></div>
+            <p>Forms collect data from users and are central to e-commerce, sign-ups, and more: <br>
+                Basic Form Tags:- The &lt;form&gt; tag wraps all form content, while &lt;input&gt;, &lt;select&gt;, and &lt;textarea&gt; define the data fields. For example, an email input field is created with &lt;input type="email"&gt;. <br>
+                Form Attributes:- Attributes like action (specifies where form data is sent) and method (defines HTTP method, usually GET or POST) control form submission behavior.
+            </p>
+            <div class="module-restyle"><h3>Chapter 2.4: Tables and Table Styling</h3></div>
+            <p>Tables organize data in rows and columns, often for tabular information: <br>
+               Table Structure:- The &lt;table&gt; tag wraps the entire table, &lt;tr&gt; defines rows, &lt;th&gt; headers, and &lt;td&gt; table cells. This setup keeps data organized and clear. <br>
+               Basic Table Styling:- You can add borders, padding, and spacing to make tables visually appealing and easy to read.
+            </p>
+        </section>
+        <section id="module3" class="module">
+            <div class="module-style"><h2>Module 3: Advanced HTML Elements</h2></div>
+            <div class="module-restyle"><h3>Chapter 3.1: HTML5 Semantic Elements</h3></div>
+            <p>Semantic elements like &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, and &lt;section&gt; describe the role of content on the page. These elements improve SEO and make the page easier for screen readers to interpret. Semantic tags are particularly useful in defining layout without CSS, making content more understandable.
+            </p>
+            <div class="module-restyle"><h3>Chapter 3.2: Using Iframes and Embedding External Content</h3></div>
+            <p>Iframes (&lt;iframe&gt;) embed external content, like a map or video, directly on your page. The `src` attribute specifies the source, while attributes like `width` and `height` control display. For example: <br>
+               &lt;iframe src="https://example.com"&gt;&lt;/iframe&gt;
+               Its essential to use iframes responsibly, as they can affect load times and security.
+            </p>
+            <div class="module-restyle"><h3>Chapter 3.3: Forms: Advanced Inputs and Attributes</h3></div>
+            <p>HTML provides advanced form input types (such as date, color, and range). These inputs enhance user experience by reducing typing and guiding users to provide data in the correct format.
+            </p>
+            <div class="module-restyle"><h3>Chapter 3.4: Interactive Elements</h3></div>
+            <p>Buttons (&lt;button&gt;) and modals (pop-ups) enhance interactivity. A button might submit a form, open a link, or trigger JavaScript actions. Modals display additional information without leaving the page, adding dynamic functionality.
+            </p>
+        </section>
+        <section id="module4" class="module">
+            <div class="module-style"><h2>Module 4: HTML Best Practices</h2></div>
+            <div class="module-restyle"><h3>Chapter 4.1: Accessibility in HTML</h3></div>
+            <p>Accessible websites consider users with disabilities, making content available to all. Practices include adding `alt` text for images, labeling form inputs with &lt;label&gt;, and using headings (&lt;h1&gt; to &lt;h6&gt;) for structure. Accessibility benefits everyone by improving usability.
+            </p>
+            <div class="module-restyle"><h3>Chapter 4.2: Structuring HTML for SEO</h3></div>
+            <p>Search engines value well-structured HTML, which includes heading hierarchy, internal linking, and semantic tags. Proper structure improves rankings, making the website more discoverable.
+            </p>
+            <div class="module-restyle"><h3>Chapter 4.3: HTML Code Organization and Comments</h3></div>
+            <p>Well-organized HTML is easier to read and maintain. Using consistent indentations, grouping related elements, and adding comments (&lt;!-- comment --&gt;) can make the codebase more understandable for collaborators and future updates.
+            </p>
+            <div class="module-restyle"><h3>Chapter 4.4: Tips for Clean, Maintainable HTML</h3></div>
+            <p>Keeping HTML clean means minimizing unnecessary tags, using attributes wisely, and ensuring a logical, accessible structure. Avoiding redundant code reduces page load time and improves maintainability</p>
+        </section>
+    </main>
+</body>
+</html>
+
+&lt;a&gt;
