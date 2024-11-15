@@ -288,7 +288,7 @@ h1,h2,h3,h4,li{
     padding: 1.5vw 5vw;
 }
 .module p, .module li{
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     padding: 2vw 5vw;  
 }
 .read{
