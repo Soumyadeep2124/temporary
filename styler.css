@@ -431,3 +431,14 @@ footer{
     }
 
 }
+@media (max-width:479px){
+    .read{
+        flex-direction: column-reverse;
+        
+    }
+    .read-image{
+        width: 70vw;
+        height: auto;
+        margin: 0vw auto;
+    }
+}
